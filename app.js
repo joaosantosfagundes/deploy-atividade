@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Configurar EJS como a engine de visualização
-app.set('view engine', 'ejs');
+app.set('views engine', 'ejs');
 
 app.get('/', (req, res) => {
   // Obter o endereço IP do servidor
